@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "scarf-law": {
+    "scarff-law": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/scarf-law",
+            "outputPath": "dist/scarff-law",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -66,18 +66,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "scarf-law:build"
+            "browserTarget": "scarff-law:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "scarf-law:build:production"
+              "browserTarget": "scarff-law:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "scarf-law:build"
+            "browserTarget": "scarff-law:build"
           }
         },
         "test": {
@@ -114,15 +114,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "scarf-law:serve"
+            "devServerTarget": "scarff-law:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "scarf-law:serve:production"
+              "devServerTarget": "scarff-law:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "scarf-law"
+  "defaultProject": "scarff-law"
 }
